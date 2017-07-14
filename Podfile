@@ -4,11 +4,7 @@ target 'code name Russia' do
     use_frameworks!
     
     pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire.git', :branch => 'swift4'
-    
-    
-    
-    
-    
+    pod 'SwiftyJSON'
     
     
     
