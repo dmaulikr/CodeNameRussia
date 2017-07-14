@@ -10,6 +10,7 @@ import Foundation
 
 
 struct Place: Codable {
+    
     var headerLocation: String
     var headerFullLocation: String
     var suggestedRadius: String

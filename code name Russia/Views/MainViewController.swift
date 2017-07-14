@@ -13,6 +13,9 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        APIFour.shared.getNearbyPLaces()
+        
+        
         // Do any additional setup after loading the view.
     }
 
