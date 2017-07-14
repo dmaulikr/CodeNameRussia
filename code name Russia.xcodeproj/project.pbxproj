@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		448A017A1F190A7A00BB5E83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A01791F190A7A00BB5E83 /* AppDelegate.swift */; };
+		448A017C1F190A7A00BB5E83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A017B1F190A7A00BB5E83 /* ViewController.swift */; };
+		448A017F1F190A7A00BB5E83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 448A017D1F190A7A00BB5E83 /* Main.storyboard */; };
+		448A01811F190A7A00BB5E83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 448A01801F190A7A00BB5E83 /* Assets.xcassets */; };
+		448A01841F190A7A00BB5E83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 448A01821F190A7A00BB5E83 /* LaunchScreen.storyboard */; };
+		448A018F1F190A7A00BB5E83 /* code_name_RussiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A018E1F190A7A00BB5E83 /* code_name_RussiaTests.swift */; };
+		448A019A1F190A7A00BB5E83 /* code_name_RussiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A01991F190A7A00BB5E83 /* code_name_RussiaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		448A018B1F190A7A00BB5E83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 448A016E1F190A7900BB5E83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 448A01751F190A7A00BB5E83;
+			remoteInfo = "code name Russia";
+		};
+		448A01961F190A7A00BB5E83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 448A016E1F190A7900BB5E83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 448A01751F190A7A00BB5E83;
+			remoteInfo = "code name Russia";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		448A01761F190A7A00BB5E83 /* code name Russia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "code name Russia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		448A01791F190A7A00BB5E83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		448A017B1F190A7A00BB5E83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		448A017E1F190A7A00BB5E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		448A01801F190A7A00BB5E83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		448A01831F190A7A00BB5E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		448A01851F190A7A00BB5E83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		448A018A1F190A7A00BB5E83 /* code name RussiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "code name RussiaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		448A018E1F190A7A00BB5E83 /* code_name_RussiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = code_name_RussiaTests.swift; sourceTree = "<group>"; };
+		448A01901F190A7A00BB5E83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		448A01951F190A7A00BB5E83 /* code name RussiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "code name RussiaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		448A01991F190A7A00BB5E83 /* code_name_RussiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = code_name_RussiaUITests.swift; sourceTree = "<group>"; };
+		448A019B1F190A7A00BB5E83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		448A01731F190A7A00BB5E83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448A01871F190A7A00BB5E83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448A01921F190A7A00BB5E83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		448A016D1F190A7900BB5E83 = {
+			isa = PBXGroup;
+			children = (
+				448A01781F190A7A00BB5E83 /* code name Russia */,
+				448A018D1F190A7A00BB5E83 /* code name RussiaTests */,
+				448A01981F190A7A00BB5E83 /* code name RussiaUITests */,
+				448A01771F190A7A00BB5E83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		448A01771F190A7A00BB5E83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				448A01761F190A7A00BB5E83 /* code name Russia.app */,
+				448A018A1F190A7A00BB5E83 /* code name RussiaTests.xctest */,
+				448A01951F190A7A00BB5E83 /* code name RussiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		448A01781F190A7A00BB5E83 /* code name Russia */ = {
+			isa = PBXGroup;
+			children = (
+				448A01791F190A7A00BB5E83 /* AppDelegate.swift */,
+				448A017B1F190A7A00BB5E83 /* ViewController.swift */,
+				448A017D1F190A7A00BB5E83 /* Main.storyboard */,
+				448A01801F190A7A00BB5E83 /* Assets.xcassets */,
+				448A01821F190A7A00BB5E83 /* LaunchScreen.storyboard */,
+				448A01851F190A7A00BB5E83 /* Info.plist */,
+			);
+			path = "code name Russia";
+			sourceTree = "<group>";
+		};
+		448A018D1F190A7A00BB5E83 /* code name RussiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				448A018E1F190A7A00BB5E83 /* code_name_RussiaTests.swift */,
+				448A01901F190A7A00BB5E83 /* Info.plist */,
+			);
+			path = "code name RussiaTests";
+			sourceTree = "<group>";
+		};
+		448A01981F190A7A00BB5E83 /* code name RussiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				448A01991F190A7A00BB5E83 /* code_name_RussiaUITests.swift */,
+				448A019B1F190A7A00BB5E83 /* Info.plist */,
+			);
+			path = "code name RussiaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		448A01751F190A7A00BB5E83 /* code name Russia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 448A019E1F190A7A00BB5E83 /* Build configuration list for PBXNativeTarget "code name Russia" */;
+			buildPhases = (
+				448A01721F190A7A00BB5E83 /* Sources */,
+				448A01731F190A7A00BB5E83 /* Frameworks */,
+				448A01741F190A7A00BB5E83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "code name Russia";
+			productName = "code name Russia";
+			productReference = 448A01761F190A7A00BB5E83 /* code name Russia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		448A01891F190A7A00BB5E83 /* code name RussiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 448A01A11F190A7A00BB5E83 /* Build configuration list for PBXNativeTarget "code name RussiaTests" */;
+			buildPhases = (
+				448A01861F190A7A00BB5E83 /* Sources */,
+				448A01871F190A7A00BB5E83 /* Frameworks */,
+				448A01881F190A7A00BB5E83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				448A018C1F190A7A00BB5E83 /* PBXTargetDependency */,
+			);
+			name = "code name RussiaTests";
+			productName = "code name RussiaTests";
+			productReference = 448A018A1F190A7A00BB5E83 /* code name RussiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		448A01941F190A7A00BB5E83 /* code name RussiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 448A01A41F190A7A00BB5E83 /* Build configuration list for PBXNativeTarget "code name RussiaUITests" */;
+			buildPhases = (
+				448A01911F190A7A00BB5E83 /* Sources */,
+				448A01921F190A7A00BB5E83 /* Frameworks */,
+				448A01931F190A7A00BB5E83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				448A01971F190A7A00BB5E83 /* PBXTargetDependency */,
+			);
+			name = "code name RussiaUITests";
+			productName = "code name RussiaUITests";
+			productReference = 448A01951F190A7A00BB5E83 /* code name RussiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		448A016E1F190A7900BB5E83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Emil Karimov";
+				TargetAttributes = {
+					448A01751F190A7A00BB5E83 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					448A01891F190A7A00BB5E83 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 448A01751F190A7A00BB5E83;
+					};
+					448A01941F190A7A00BB5E83 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 448A01751F190A7A00BB5E83;
+					};
+				};
+			};
+			buildConfigurationList = 448A01711F190A7900BB5E83 /* Build configuration list for PBXProject "code name Russia" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 448A016D1F190A7900BB5E83;
+			productRefGroup = 448A01771F190A7A00BB5E83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				448A01751F190A7A00BB5E83 /* code name Russia */,
+				448A01891F190A7A00BB5E83 /* code name RussiaTests */,
+				448A01941F190A7A00BB5E83 /* code name RussiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		448A01741F190A7A00BB5E83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448A01841F190A7A00BB5E83 /* LaunchScreen.storyboard in Resources */,
+				448A01811F190A7A00BB5E83 /* Assets.xcassets in Resources */,
+				448A017F1F190A7A00BB5E83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448A01881F190A7A00BB5E83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448A01931F190A7A00BB5E83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		448A01721F190A7A00BB5E83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448A017C1F190A7A00BB5E83 /* ViewController.swift in Sources */,
+				448A017A1F190A7A00BB5E83 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448A01861F190A7A00BB5E83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448A018F1F190A7A00BB5E83 /* code_name_RussiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448A01911F190A7A00BB5E83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448A019A1F190A7A00BB5E83 /* code_name_RussiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		448A018C1F190A7A00BB5E83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 448A01751F190A7A00BB5E83 /* code name Russia */;
+			targetProxy = 448A018B1F190A7A00BB5E83 /* PBXContainerItemProxy */;
+		};
+		448A01971F190A7A00BB5E83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 448A01751F190A7A00BB5E83 /* code name Russia */;
+			targetProxy = 448A01961F190A7A00BB5E83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		448A017D1F190A7A00BB5E83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				448A017E1F190A7A00BB5E83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		448A01821F190A7A00BB5E83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				448A01831F190A7A00BB5E83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		448A019C1F190A7A00BB5E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		448A019D1F190A7A00BB5E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		448A019F1F190A7A00BB5E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V93MRMNEKV;
+				INFOPLIST_FILE = "code name Russia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.karimovs.code-name-Russia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		448A01A01F190A7A00BB5E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V93MRMNEKV;
+				INFOPLIST_FILE = "code name Russia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.karimovs.code-name-Russia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		448A01A21F190A7A00BB5E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V93MRMNEKV;
+				INFOPLIST_FILE = "code name RussiaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.karimovs.code-name-RussiaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/code name Russia.app/code name Russia";
+			};
+			name = Debug;
+		};
+		448A01A31F190A7A00BB5E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V93MRMNEKV;
+				INFOPLIST_FILE = "code name RussiaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.karimovs.code-name-RussiaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/code name Russia.app/code name Russia";
+			};
+			name = Release;
+		};
+		448A01A51F190A7A00BB5E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V93MRMNEKV;
+				INFOPLIST_FILE = "code name RussiaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.karimovs.code-name-RussiaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "code name Russia";
+			};
+			name = Debug;
+		};
+		448A01A61F190A7A00BB5E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V93MRMNEKV;
+				INFOPLIST_FILE = "code name RussiaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.karimovs.code-name-RussiaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "code name Russia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		448A01711F190A7900BB5E83 /* Build configuration list for PBXProject "code name Russia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448A019C1F190A7A00BB5E83 /* Debug */,
+				448A019D1F190A7A00BB5E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		448A019E1F190A7A00BB5E83 /* Build configuration list for PBXNativeTarget "code name Russia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448A019F1F190A7A00BB5E83 /* Debug */,
+				448A01A01F190A7A00BB5E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		448A01A11F190A7A00BB5E83 /* Build configuration list for PBXNativeTarget "code name RussiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448A01A21F190A7A00BB5E83 /* Debug */,
+				448A01A31F190A7A00BB5E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		448A01A41F190A7A00BB5E83 /* Build configuration list for PBXNativeTarget "code name RussiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448A01A51F190A7A00BB5E83 /* Debug */,
+				448A01A61F190A7A00BB5E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 448A016E1F190A7900BB5E83 /* Project object */;
+}
